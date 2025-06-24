@@ -2,7 +2,7 @@
 //  User Parameters
 // ========================================================
 
-linewidthUM          = 0.21;// Width of skeleton lines and profile traces (µm)
+linewidthUM          = 0.2;// Width of skeleton lines and profile traces (µm)
 minlengthUM          = 0.225;// Minimum length for any measured profile (µm)
 dnaChannel         = 3;// DNA image channel to process (1-based index)
 dir = getDirectory("home");
@@ -126,7 +126,7 @@ for (i = 0; i < files.length; i++) {
 		diskClosingRadius   = Math.ceil(0.075/pixelWidth); 
 		
 		// Radius for square-shaped Closing filter when local contrast is off 
-		squareClosingRadius = Math.ceil(0.075/pixelWidth); 
+		squareClosingRadius = Math.ceil(0.03/pixelWidth); 
 		
 		// Minimum particle size before skeletonization 
 		preSkeletonSize    = Math.ceil(0.15/pixelWidth); 
@@ -155,7 +155,8 @@ for (i = 0; i < files.length; i++) {
         //  Local contrast correction (optional)
         // ----------------------------------------------------
         if (locContrast) {
-            run("Normalize Local Contrast", "block_radius_x=1 block_radius_y=1 standard_deviations=30 center stretch");
+            run("Normalize Local Contrast", "block_radius_x=1 block_radius_y=1 standard_deviations=30 stretch");
+            //run("Normalize Local Contrast", "block_radius_x=1 block_radius_y=1 standard_deviations=30 center stretch");
             setAutoThreshold("Otsu dark");
             run("Convert to Mask");
         }
@@ -163,6 +164,8 @@ for (i = 0; i < files.length; i++) {
         // ----------------------------------------------------
         //  Denoising & morphological closing
         // ----------------------------------------------------
+
+		
         run("Non-local Means Denoising", "sigma=" + denoiseSigma + " smoothing_factor=1");
         run("Morphological Filters", "operation=Closing element=Disk radius=" + diskClosingRadius);
 
