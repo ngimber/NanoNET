@@ -37,8 +37,8 @@ Dialog.addMessage("\n");
 
 // --- Import Parameters ---
 Dialog.addMessage("***  Import Parameters  ***");
-// File extension filter
-Dialog.addString("File extension:", extention);
+// File extention filter
+Dialog.addString("File extention:", extention);
 Dialog.addMessage("\n");
 
 // --- Filter Profiles ---
