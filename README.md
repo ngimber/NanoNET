@@ -16,7 +16,7 @@ DOI: https://doi.org/10.1101/2025.07.28.665103
 ## 📦 Workflows
 
 ### 1. NET Detection
-**Purpose:** Extract NET filament line profiles from 2D/3D microscopy stacks. Line profiles for all channels are measured along a continuous DNA backbone channel.
+**Purpose:** Extract NET filament line profiles from 2D/3D microscopy stacks. Line profiles for all channels (three-channel images expected) are measured along a continuous DNA backbone channel.
 
 ![NanoNET Detection GUI](https://github.com/ngimber/NanoNET/blob/main/NanoNET_NET-Detection/GUI_NanoNET-Detection.png)
 
