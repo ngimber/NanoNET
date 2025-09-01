@@ -55,7 +55,7 @@ DOI: https://doi.org/10.1101/2025.07.28.665103
    - **Pixel size (nm/px):** set the image sampling.
    - **Resolution:** expected resolution of the microscopy technique.
    - **Plot only first peak:** if enabled, only the first peak in the correlogram is considered.
-   - **Shift intervals:** step size for lags used in auto-/cross-correlation.
+   - **Shift intervals:** maximum lags for auto-/cross-correlation (steps are pixels).
    - **Minimal filament length:** exclude short fragments from analysis.
 
 **Outputs**
