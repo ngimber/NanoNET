@@ -69,7 +69,6 @@ DOI: https://doi.org/10.1101/2025.07.28.665103
 
 - **NET Detection**
   - Fiji/ImageJ with NanoNET plugin — https://imagej.net/software/fiji/  
-  - GUI for parameter tuning
 
 - **NET Analysis**
   - Python 3.9.13  
@@ -79,11 +78,8 @@ DOI: https://doi.org/10.1101/2025.07.28.665103
 Install the Python dependencies with `pip` (recommended in a virtual environment):
 
 ```bash
-python -m venv .venv
-# Activate the environment:
-#   Windows: .venv\Scripts\activate
-#   macOS/Linux: source .venv/bin/activate
 
+# Upgrade pip
 pip install --upgrade pip
 
 # Core scientific stack
