@@ -53,10 +53,11 @@ DOI: https://doi.org/10.1101/2025.07.28.665103
    **Set parameters:**
    - **Fragments:** enable **Break into fragments** to split profiles into segments of defined length (e.g., 1500 nm).
    - **Pixel size (nm/px):** set the image sampling.
-   - **Resolution:** expected resolution of the microscopy technique.
-   - **Plot only first peak:** if enabled, only the first peak in the correlogram is considered.
    - **Shift intervals:** maximum lags for auto-/cross-correlation (steps are pixels).
-   - **Minimal filament length:** exclude short fragments from analysis.
+   - **Plot only first peak:** if enabled, only the first peak in the correlogram is considered.
+   - **Minimal profile length:** excludes shrt line profiles.
+   - **Resolution:** expected resolution of the microscopy technique. This is required for the next point.
+   - **Suppress sub-reslution peaks:** affects only auto-correlation traces and is required for analyszing periodicities.
 
 **Outputs**
 - Correlation tables (auto- & cross-correlation values)  
