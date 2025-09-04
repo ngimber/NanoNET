@@ -309,7 +309,7 @@ def getParameters():
         show_entry_fields()
 
     master = Tk()
-    master.title("Automated Line Profile Correlation")
+    master.title("NanoNET:Analysis")
 
     # ---- labels ----
     Label(master, text="                                       ").grid(row=0,  column=0, sticky=W)
