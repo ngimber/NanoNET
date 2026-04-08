@@ -8,8 +8,8 @@ NanoNET consists of the following workflows:
 - **NanoNET Analysis** – Statistical correlation and periodicity analysis of filament profiles.
 
 Detailed information on sample preparation, imaging, and NanoNET can be found in the bioRxiv paper:  
-**Nanoscale Mapping Reveals Periodic Organization of Neutrophil Extracellular Trap Proteins** — bioRxiv (2025).  
-DOI: https://doi.org/10.1101/2025.07.28.665103
+**Nanoscale Mapping Reveals Periodic Organization of Neutrophil Extracellular Trap Proteins** — Nano Letters (20265).  
+DOI: https://doi.org/10.1021/acs.nanolett.5c05175
 
 ---
 
