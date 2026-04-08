@@ -7,7 +7,7 @@ NanoNET consists of the following workflows:
 - **NanoNET Detection** – Automated segmentation and extraction of NET filament profiles from light microscopy data (e.g., SIM, STED, SMLM).  
 - **NanoNET Analysis** – Statistical correlation and periodicity analysis of filament profiles.
 
-Detailed information on sample preparation, imaging, and NanoNET can be found in the bioRxiv paper:  
+Detailed information on sample preparation, imaging, and NanoNET can be found in the following paper:  
 **Nanoscale Mapping Reveals Periodic Organization of Neutrophil Extracellular Trap Proteins** — Nano Letters (20265).  
 DOI: https://doi.org/10.1021/acs.nanolett.5c05175
 
